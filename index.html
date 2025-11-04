@@ -368,9 +368,9 @@
 			              	<div class="icon-quote">
 			              		<span class="icon-quote-left"></span>
 			              	</div>
-			                <p class="mb-4">  A perfectionist in project execution, Ahmad ensures every detail is precise — from concept to completion. His leadership keeps every project running smoothly and on time.</p>
-			                <p class="name">Ahmad Faraz</p>
-			              <span class="position">Project Manager</span>
+			                <p class="mb-4">  A perfectionist in project execution, Asim ensures every detail is precise — from concept to completion. His leadership keeps every project running smoothly and on time.</p>
+			                <p class="name">Asim Ishtiaq</p>
+			              <span class="position">Operations Manager</span>
 		                </div>
 		              </div>
 		            </div>
@@ -758,6 +758,24 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+<!--  Mobile Menu Close code  -->
+
+  <script>
+  // Close mobile navbar after clicking any link
+  const navLinks = document.querySelectorAll('.navbar-collapse a');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (navbarCollapse.classList.contains('show')) {
+        const bsCollapse = new bootstrap.Collapse(navbarCollapse);
+        bsCollapse.hide();
+      }
+    });
+  });
+</script>
+
     
   </body>
 

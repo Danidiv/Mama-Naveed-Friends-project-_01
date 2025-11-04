@@ -8691,6 +8691,67 @@ h1, h2, h3, h4, h5,
     content: '';
     width: 360%;
     background: #3ac672; }
+
+/* Mobile Code  */
+
+
+/* ✅ Mobile Responsive Fix */
+@media (max-width: 770px) {
+  .testimony-wrap {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 20px 15px;
+  }
+
+  .user-img {
+    width: 160px !important;
+    height: 160px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+  }
+
+  .text {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 20px !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    word-break: normal !important;
+    margin-top: 30px !important;
+  }
+
+  .text p {
+    margin: 0 auto 12px auto;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 95%;
+  }
+
+  .text .name {
+    font-weight: 700;
+    color: #228B22;
+    font-size: 17px;
+  }
+
+  .text .position {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+
+  .carousel-testimony .item {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
   @media (max-width: 767.98px) {
     .aside-stretch {
       background: transparent; }
